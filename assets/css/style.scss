@@ -1,1 +1,32 @@
 
+---
+---
+
+@import "{{ site.theme }}";
+
+a {
+ color:#8ebdaf;
+}
+a:hover,
+a:focus {
+ color:#8ebdaf;
+}
+a small {
+ color:#8ebdaf;
+}
+a:hover small {
+ color:#8ebdaf
+}
+
+body {
+ font-family: "Calibri Light", Calibri, calibri, sans-serif;
+ font-size: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+ letter-spacing: -0.08em;
+}
+
+header h1 a {
+ font-size: 1.2em;
+}
