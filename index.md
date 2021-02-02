@@ -2,9 +2,9 @@
 
 ---
 
-### Category Name 1 
+### Project Week 1
 
-[Project 1 Title](/sample_page)
+[Work in Progress 1](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
