@@ -2,17 +2,20 @@
 
 ---
 
-### Project Week 1
+### How did the availability of medical resources affect the progression of disaster response to recovery after Hurricane Maria? 
 
-[Work in Progress 1](/sample_page)
+[May 2017](/sample_page)
+<br>
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 [Work in Progress 2](/pdf/sample_presentation.pdf)
+<br>
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 [Work in Progress 3](http://example.com/)
+<br>
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
