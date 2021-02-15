@@ -10,7 +10,7 @@
 <br>
 
 ---
-[Work in Progress 2](/pdf/sample_presentation.pdf)
+[GES Lab 2](/pdf/sample_presentation.pdf)
 <br>
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
