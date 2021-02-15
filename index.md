@@ -12,6 +12,8 @@
 ---
 [GES Lab 2](/pdf/sample_presentation.pdf)
 <br>
+Here is a map of Bangladesh using QGIS with points in the Dhaka district.
+<br>
 <img src="images/Screen Shot 2021-02-14 at 7.23.29 PM.png"/>
 
 ---
