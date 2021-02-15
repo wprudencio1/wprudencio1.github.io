@@ -12,7 +12,7 @@
 ---
 [GES Lab 2](/pdf/sample_presentation.pdf)
 <br>
-<images/Screen Shot 2021-02-14 at 7.23.29 PM.png"/>
+<img src="images/Screen Shot 2021-02-14 at 7.23.29 PM.png"/>
 
 ---
 [Work in Progress 3](http://example.com/)
