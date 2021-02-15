@@ -1,10 +1,13 @@
-name: Wendy Prudencio 
-logo: "images/B0DB81F8-2300-438A-9993-53F87A418728.jpg"
-description: Graduate student in the Public Policy Program at UMBC. 
-  This is my porfolio for my GES Course.
+name: Wendy Prudencio # your name (or website title) here
+logo: "/images/B0DB81F8-2300-438A-9993-53F87A418728.jpg?raw=true" # your photo (or logo) here
+description: > # your text below (remove <br> elements if you don't need line breaks)
+  <strong>Graduate student in the Public Policy Program at UMBC. 
   <br><br>
   GES 687 Course
   <br><br>
   <a href="www.linkedin.com/in/wprudencio">View My LinkedIn Profile</a> 
   
-
+  
+  
+theme: jekyll-theme-minimal
+google_analytics: UA-000000-0 # your Google Analytics tracking ID here
