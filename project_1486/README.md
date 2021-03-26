@@ -18,8 +18,6 @@ The map of Puerto Rico shows that areas such as Coco and Salinas, in dark maroon
 ## Future
 A multiple regression analysis holding for income and race variables should be conducted to support the potential findings in this project. 
 
-## Github Link
-[Project 1]()
 ## References
 [ASC Data](https://www.socialexplorer.com/data/ACS2019_5yr/metadata/?ds=ACS19_5yr&table=B25047)
 
@@ -29,10 +27,6 @@ A multiple regression analysis holding for income and race variables should be c
 
 [Shiloh Deitz & Katie Meehan (2019): Plumbing Poverty: Mapping Hot Spots
 of Racial and Geographic Inequality in U.S. Household Water Insecurity, Annals of the American Association of Geographers]
-
-
-
-
 
 
 ![Project1C](https://user-images.githubusercontent.com/78438945/112562259-4fa4ef80-8dad-11eb-802d-375448544410.jpg)
