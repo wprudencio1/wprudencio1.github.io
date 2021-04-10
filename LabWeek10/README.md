@@ -13,5 +13,8 @@ The data was entered in RStudio to produce an R-Markdown with the variable’s e
 ## Analysis
 As of 2019, Puerto Rico has a little over 1.1 million households with 2.75 persons per household, which is a 68.1 percent of occupied housing units. The bivariate map shows there are some areas in central Puerto Rico with no to low earnings with a smaller number of household units and areas with a higher population such as San Juan and Caguas with higher earnings and a higher number of households.
 
+## Reference
+(https://www.socialexplorer.com/data/ACS2019_5yr/metadata/?ds=ACS19_5yr)
+
  # Earnings and Housing Units in Puerto Rico
 ![PrudencioLabWk10](https://user-images.githubusercontent.com/78438945/114283079-ee6c5580-9a15-11eb-8206-e603f918e9a5.jpg)
