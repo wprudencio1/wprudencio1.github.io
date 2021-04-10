@@ -4,6 +4,7 @@ author: "Wendy Prudencio"
 date: "2021/04/10"
 output:
   html_document:
+    df_print: paged
 subtitle: Lab Week 10
 ---
 
@@ -19,7 +20,7 @@ library(ggplot2)
 ```{r}
 options(tigris_class = "sf")
 options(tigris_use_cache = TRUE)
-census_api_key("") 
+census_api_key("3efcfb0ddc4c895edaac8221c73a40ca59dd392c") 
 "install = TRUE"
 ```
 
@@ -42,8 +43,7 @@ earnings_19 <- get_acs(geography = "tract",
 ```
 
 # Download Census Data for 2010-2014
-```{r}![PrudencioLabWk10](https://user-images.githubusercontent.com/78438945/114281882-fa084e00-9a0e-11eb-9df6-8b99041bbf81.jpg)
-
+```{r}
 earnings_14 <- get_acs(geography = "tract", 
      variables = c("total_earn" = "B19051_001", # Total earnings in the past 12 months
                    "with_earn1" = "B19051_002", # With earnings
@@ -105,4 +105,5 @@ Here ggplot is used. Not that I specified the CRS (projection)
 ```{r}
 st_write(earnings_19, "earnings_diff.geojson")
 ```
+ # Earnings and Housing Units in Puerto Rico
 ![PrudencioLabWk10](https://user-images.githubusercontent.com/78438945/114283079-ee6c5580-9a15-11eb-8206-e603f918e9a5.jpg)
