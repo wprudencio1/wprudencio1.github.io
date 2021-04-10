@@ -11,3 +11,6 @@ Earning and household’s unit data from 2010-2014 and 2015-2019 was obtained fr
 The data was entered in RStudio to produce an R-Markdown with the variable’s earnings and housing units. The purpose of the R-Markdown was to transform the data from ACS to produce a bivariate map that shows change over time in Puerto Rico.
 
 ## Analysis
+
+
+![PrudencioLabWk10](https://user-images.githubusercontent.com/78438945/114283079-ee6c5580-9a15-11eb-8206-e603f918e9a5.jpg)
