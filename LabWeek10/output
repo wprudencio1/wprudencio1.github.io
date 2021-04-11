@@ -20,7 +20,7 @@ library(ggplot2)
 ```{r}
 options(tigris_class = "sf")
 options(tigris_use_cache = TRUE)
-census_api_key("3efcfb0ddc4c895edaac8221c73a40ca59dd392c") 
+census_api_key("") 
 "install = TRUE"
 ```
 
