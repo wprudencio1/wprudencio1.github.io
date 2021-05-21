@@ -2,7 +2,7 @@
 
 ### Introduction
 
-Name/ Bio
+Wendy Prudencio
 
 <img src="images/demo.gif?raw=true"/>
 
