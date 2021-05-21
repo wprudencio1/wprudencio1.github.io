@@ -1,0 +1,34 @@
+<b>Topic</b>
+The Impacts of Hurricane Irma and Hurricane Maria on Household Compositions
+
+<b>Introduction</b>
+Puerto Rico is a United States territory located in the Caribbean Sea, a part of the Atlantic Ocean. As of 2019, Puerto Rico had a population estimate of 3,193,694 with 1,192,654 estimated households (U.S. Census Bureau, n.d.). In September 2017, Puerto Rico was devastated by Hurricane Irma a category 5 storm and fourteen days later Hurricane Maria, also a category 5 storm, destroyed Puerto Rico. Hurricanes Irma and Maria impacted critical infrastructure, essential life-lines, and households. It was recorded that roughly 780,000 homes sustained damages from Hurricane Irma and Maria (Habitat for Humanity, n.d.). It has been reported that in 2020 thousands of homes that were impacted by both hurricanes still remain damaged (Coto, 2020). 
+This project looks at household composition in terms of median incomes, total insurance, and housing units from years 2014, 2016, 2018, and 2019 in Puerto Rico to determine if the impacts of Hurricanes Irma and Maria changed household composition. 
+
+<b>Data</b>
+Census tracts for total population for years 2019 and 2014, median household income in the past 12 months (In 2019 inflation-adjusted dollars and 2014 inflation adjusted dollars), total and health insurance coverage status by sex by age variables were attained from the American Community Survey (ACS) U.S. Census Bureau. The percentage of housing units for years 2016 and 2018 were obtained from the Social Vulnerability Index provided by Centers for Disease Control and Prevention. Additionally, Comma Separated Values (CSV) on the damages per-household were computed using data obtained from the U. S. Department of Housing and Urban Development. 
+
+<b>Transformation</b>
+The Census tracts and CSV datasets were transformed into geographic information system maps projected in World Geodetic System 1984/Pseudo-Mercator EPSG: 3857. 
+
+<b>Analysis</b>
+In RStudio, a bivariate choropleth map was created using the total population, median household income and total insurance coverage for years 2014 and 2019. The bivariate choropleth map shows that the areas of San Juan, Ponce, Rincón, Aguadilla, and Carolina have a higher median household income using total insurance coverage. Areas that are more mountainous such as Cerro de Punta have a lower to no median household income using total insurance coverage. The map is accurate in that the areas with higher median household income are big cities in Puerto Rico.
+Using QGIS a choropleth map was created using the total population insured in Puerto Rico for years 2014 and 2019. The map shows that areas such as Fajardo, Patillas, Arecibo, and Caguas have a higher rate of insured individuals compared to Lajas, Florida, and Adjuntas, which have a lower number of insured individuals. In QGIS another bivariate choropleth map was created using housing units for years 2016 and 2018 to show the differences before and after Hurricanes Irma and Maria. The map shows that in municipalities such as Fajardo, Caiba, Toa Baja, and Arecibo there was a substantial decrease in housing units from 2016 to 2018.
+
+<b>Future</b>
+I am working on combing the maps that were created in this project with fixed effects regression models on housing units and crowdedness in households. I intended to create additional maps to determine if crowdedness was a direct impacts of the damages per-household units. I want to be able to publish these maps and paper during the summer of 2021.
+
+<b>References<b>
+Coto, D. (2020). Thousands in Puerto Rico still without housing since Maria. Retrieved from https://apnews.com/article/ap-top-news-puerto-rico-latin-america-caribbean-hurricanes-a2cf35e2f8893592ec4b59d90baae1ac
+Habitat for Humanity. (n.d.). Hurricane Maria recovery. Retrieved from https://www.habitat.org/our-work/disaster-response/hurricanes/hurricane-maria
+Social Explorer. (n.d.). American Community Survey Tables 2010- 2014 (5-Year Estimates). Retrieved from https://www.socialexplorer.com/data/ACS2014_5yr/metadata/
+Social Explorer. (n.d.). American Community Survey Tables 2015- 2019 (5-Year Estimates). Retrieved from https://www.socialexplorer.com/data/ACS2019_5yr/metadata/
+U. S. Census Bureau. (n.d.) Puerto Rico QuickFacts. Retrieved from https://www.census.gov/quickfacts/PR
+U. S. Department of Housing and Urban Development. (2018). Housing Damage Assessment and Recovery Strategies Report Puerto Rico. Retrieved from http://spp-pr.org/wp-content/uploads/downloads/2018/07/HUD-Housing-Damage-Assessment-Recovery-Strategies-6-29-18.pdf
+
+<b>Links to sites that were helpful</b>
+[RStudio](https://cran.r-project.org/web/packages/biscale/vignettes/biscale.html)
+[RStudio](https://www.rstudio.com/wp-content/uploads/2015/04/ggplot2-cheatsheet.pdf)
+[Resource on Maps](https://r-spatial.org/r/2018/10/25/ggplot2-sf-2.html)
+[Resource on tidycensus](http://zevross.com/blog/2018/10/02/creating-beautiful-demographic-maps-in-r-with-the-tidycensus-and-tmap-packages/)
+[Resource on bivariate maps](https://timogrossenbacher.ch/2019/04/bivariate-maps-with-ggplot2-and-sf/)
