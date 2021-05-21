@@ -1,12 +1,12 @@
 ## Developer Portfolio Landing Page Template
 
-### Introduction
+### Bio
 
 Wendy Prudencio
 
-<img src="images/demo.gif?raw=true"/>
+<img src="images/B0DB81F8-2300-438A-9993-53F87A418728-2.jpg"/>
 
-### Installation
+### GES 687 
 
 See full step by step tutorial [on Medium](https://medium.com/@evanca/set-up-your-portfolio-website-in-less-than-10-minutes-with-github-pages-d0efa8ff56fd).
 ___
